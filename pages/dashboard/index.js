@@ -1,11 +1,7 @@
-import ContainerCard from "app/components/container/containerCard";
+import DashboardHome from "app/contents/home";
 
-function HomeDashboard() {
-  return (
-    <ContainerCard title="Dashboard Page">
-      <h1>This is Testing</h1>
-    </ContainerCard>
-  );
+function Dashboard() {
+  return <DashboardHome />;
 }
 
-export default HomeDashboard;
+export default Dashboard;

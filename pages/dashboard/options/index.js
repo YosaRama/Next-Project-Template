@@ -1,11 +1,7 @@
-import ContainerCard from "app/components/container/containerCard";
+import OptionList from "app/contents/options";
 
 function OptionDashboard() {
-  return (
-    <ContainerCard title="Option">
-      <h1>This is Testing</h1>
-    </ContainerCard>
-  );
+  return <OptionList />;
 }
 
 export default OptionDashboard;

@@ -1,5 +1,11 @@
-function Homepage() {
-  return <h1>Homepage</h1>;
+import Homepage from "themes/contents/homepage";
+
+function PageHomepage() {
+  return (
+    <>
+      <Homepage />
+    </>
+  );
 }
 
-export default Homepage;
+export default PageHomepage;
