@@ -1,7 +1,10 @@
 // Styles
 import "antd/dist/antd.css";
-import DashboardLayout from "app/components/layout";
 import "app/styles/dashboard.scss";
+import "themes/styles/theme.scss";
+
+// Layout
+import DashboardLayout from "app/components/layout";
 
 // Libs
 import { useRouter } from "next/router";
