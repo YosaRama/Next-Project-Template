@@ -6,7 +6,7 @@ const apiHandler = nextConnect();
 // GET HANDLER
 apiHandler.get(async (req, res) => {
   try {
-    const result = await GET_DATA({});
+    const result = await GET_DATA();
     if (result) {
       res.status(200).json({
         success: true,

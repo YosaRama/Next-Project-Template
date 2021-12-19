@@ -1,15 +1,17 @@
-import { Query } from "../connection";
+import { prisma } from "../connection";
+
+const Query = () => {};
 
 //***** OPTION QUERY ***** //
 
 //***** GET QUERY ***** //
 
-export const GET_DATA = ({ data }) => {
-  return Query();
+export const GET_DATA = () => {
+  return prisma.user.findMany();
 };
 
 export const GET_DATA_BY_ID = ({ id }) => {
-  return Query();
+  return prisma.user.findUnique();
 };
 
 export const GET_TOTAL_DATA = () => {
